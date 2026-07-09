@@ -33,3 +33,28 @@
 - Connect or create a repo.
 - Run Bootstrap Mode.
 - Compare results across tools.
+
+## Phase 6 — Define Ender v0
+
+Goal: Establish Ender as the conversational front-end and coordinator layer for the AI OS.
+
+Ender v0 should focus on coordination, not autonomous coding.
+
+Initial responsibilities:
+
+- Use ChatGPT Projects as the conversational workspace for brainstorming, planning, and project direction.
+- Keep GitHub as the permanent source of truth for project state, decisions, ideas, prompts, and handoffs.
+- Capture new ideas from chat and route them into the correct repository file.
+- Move approved ideas into `ideas/active.md`.
+- Record architecture and workflow decisions in `docs/decisions.md`.
+- Keep `agents/handoff.md` updated so Codex, Claude Code, Gemini Antigravity, and future coding agents can continue from the current state.
+- Prepare clear implementation prompts for coding agents.
+- Review coding-agent outputs and capture follow-up work.
+
+Next steps:
+
+1. Define the Ender v0 role and boundaries.
+2. Create or update a dedicated Ender instruction file.
+3. Define routing rules for ideas, decisions, prompts, handoffs, and roadmap updates.
+4. Test the workflow by discussing an idea in ChatGPT, updating repository documentation, and handing it off to a coding agent.
+5. Decide whether Ender belongs in this validation repo first or in the main AI OS repo.
